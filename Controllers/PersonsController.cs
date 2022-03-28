@@ -12,6 +12,7 @@ namespace VuVanDuc2022483.Controllers
     public class PersonsController : Controller
     {
         private readonly MvcMovieContext _context;
+        StringProcessVVD2022483 strPro = new StringProcessVVD2022483();
 
         public PersonsController(MvcMovieContext context)
         {
@@ -57,6 +58,8 @@ namespace VuVanDuc2022483.Controllers
         {
             if (ModelState.IsValid)
             {
+                person.PersonId = strPro.UpperToUpper(person.PersonId);
+                person.PersonName = strPro.UpperToUpper(person.PersonName);
                 _context.Add(person);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
