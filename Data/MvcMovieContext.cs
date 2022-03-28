@@ -13,4 +13,6 @@ using VuVanDuc2022483.Models;
         }
 
         public DbSet<VuVanDuc2022483.Models.Person> Person { get; set; }
+
+        public DbSet<VuVanDuc2022483.Models.VVD0483> VVD0483 { get; set; }
     }

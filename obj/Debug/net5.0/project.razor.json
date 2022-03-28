@@ -15619,8 +15619,18 @@
   "RootNamespace": "VuVanDuc2022483",
   "Documents": [
     {
+      "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\VVD0483s\\Details.cshtml",
+      "TargetPath": "Views\\VVD0483s\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\VVD0483s\\Create.cshtml",
+      "TargetPath": "Views\\VVD0483s\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,6 +15649,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\VVD0483s\\Delete.cshtml",
+      "TargetPath": "Views\\VVD0483s\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\VVD0483s\\Edit.cshtml",
+      "TargetPath": "Views\\VVD0483s\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15671,11 @@
     {
       "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\Persons\\Delete.cshtml",
       "TargetPath": "Views\\Persons\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\kiem tra\\VuVanDuc2022483\\Views\\VVD0483s\\Index.cshtml",
+      "TargetPath": "Views\\VVD0483s\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,0 +1,30 @@
+@model VuVanDuc2022483.Models.VVD0483
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>VVD0483</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VVDName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VVDName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VVDGender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VVDGender)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.VVDId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
